@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int zmiennaInt = 7;
+        System.out.println("zmienna int = " + zmiennaInt);
         /* ćw.2 */
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
@@ -16,6 +18,26 @@ public class Main {
         *  */
 
 
+        /* przykład a
+         */
 
+        Scanner scan = new Scanner(System.in);
+
+
+        System.out.print("Podaj liczbę: ");
+        int liczba = scan.nextInt();
+
+        System.out.print("Podaj drugą liczbę: ");
+        int liczb2 = scan.nextInt();
+
+        System.out.print("Suma: " + (liczba + liczb2) );
+
+        System.out.print(" Różnica:" + (liczba - liczb2));
+
+        System.out.print(" Illoczyn: " + (liczba * liczb2));
+
+        System.out.print(" Iloraz: " + (liczba / liczb2));
+
+        System.out.print(" Modulo 7");
     }
 }
