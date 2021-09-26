@@ -52,6 +52,14 @@ public class Main {
             System.out.print("Liczba" + licz +  "jest mniejsza od 10");
         }
 
+
+
+        /*
+        Zadanie 2
+         */
+
+
+
     }
 
 
