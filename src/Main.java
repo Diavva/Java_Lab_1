@@ -28,10 +28,10 @@ public class Main {
 
         if (mod != 0)
         {
-            System.out.print(" Podzielny na 3");
+            System.out.println(" Podzielny na 3");
         } else
         {
-            System.out.print("Nie podzielny przez 3");
+            System.out.println("Nie podzielny przez 3");
         }
 
         /*
@@ -41,15 +41,15 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Podaj Liczbę: ");
+        System.out.print(" Podaj Liczbę: ");
         double licz = scan.nextInt();
 
-        if (licz != 10){
-            System.out.print("Liczba" + licz + "jest równa 10");
+        if (licz == 10){
+            System.out.println(" Liczba "+ licz +" jest równa 10");
         } else if (licz >= 10){
-            System.out.print("Liczba" + licz + "jest większa od 10");
+            System.out.println(" Liczba "+ licz +" jest większa od 10");
         } else if (licz <=10){
-            System.out.print("Liczba" + licz +  "jest mniejsza od 10");
+            System.out.println(" Liczba "+ licz +" jest mniejsza od 10");
         }
 
 
@@ -57,6 +57,18 @@ public class Main {
         /*
         Zadanie 2
          */
+
+        System.out.println(" Wpisz numer: ");
+        int num = scan.nextInt();
+        int par = (num % 2 == 0) ? 0:1;
+
+       if(par == 0){
+           System.out.print("Liczba parzysta");
+       } else {
+           System.out.print("Liczba nieparzysta");
+       }
+
+
 
 
 
