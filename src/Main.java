@@ -25,10 +25,10 @@ public class Main {
 
 
         System.out.print("Podaj liczbę: ");
-        double liczba = scan.nextInt();
+        int liczba = scan.nextInt();
 
         System.out.print("Podaj drugą liczbę: ");
-        double liczb2 = scan.nextInt();
+        int liczb2 = scan.nextInt();
 
         System.out.print("Suma: " + (liczba + liczb2) );
 
@@ -41,6 +41,27 @@ public class Main {
         System.out.print(" Moduło: ");
 
 
+
+        /* pzykład b
+
+         */
+
+
+        System.out.print("Podaj liczbę: ");
+        double liczb3 = scan.nextInt();
+
+        System.out.print("Podaj drugą liczbę: ");
+        double liczb4 = scan.nextInt();
+
+        System.out.print("Suma: " + (liczb3 + liczb4) );
+
+        System.out.print(" Różnica:" + (liczb3 - liczb4));
+
+        System.out.print(" Illoczyn: " + (liczb3 * liczb4));
+
+        System.out.print(" Iloraz: " + (liczb3 / liczb4));
+
+        System.out.print(" Moduło: ");
     }
 
 }
