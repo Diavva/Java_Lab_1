@@ -37,5 +37,23 @@ public class Main {
         System.out.printf("Imię i Nazwisko:  %s %s, Wiek: %d, Numer indeksu: %d.\n ", imie, nazwisko, wiek, indeks );
 
 
+
+        /*
+        zadanie 2
+         */
+
+        Scanner scan2 = new Scanner(System.in);
+
+        System.out.print("Podaj liczbę: ");
+        int licz1 = scan.nextInt();
+
+        System.out.print("Podaj drugą liczbę: ");
+        int licz2 = scan.nextInt();
+
+        System.out.println("Suma: " +(licz1 + licz2) );
+        System.out.println("Różnica: " + (licz1 - licz2));
+        System.out.println("Iloczyn: " + (licz1 * licz2));
+        System.out.println("Iloraz: " + (licz1 / licz2));
+        System.out.print( licz1 % licz2);
     }
 }
