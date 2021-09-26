@@ -17,5 +17,44 @@ public class Main {
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
 
+        /*
+        Zadanie 1
+         */
+
+        int wiek = 19;
+
+        int mod = 19 % 3;
+
+
+        if (mod != 0)
+        {
+            System.out.print(" Podzielny na 3");
+        } else
+        {
+            System.out.print("Nie podzielny przez 3");
+        }
+
+        /*
+        Zadanie3
+         */
+
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Podaj Liczbę: ");
+        double licz = scan.nextInt();
+
+        if (licz != 10){
+            System.out.print("Liczba" + licz + "jest równa 10");
+        } else if (licz >= 10){
+            System.out.print("Liczba" + licz + "jest większa od 10");
+        } else if (licz <=10){
+            System.out.print("Liczba" + licz +  "jest mniejsza od 10");
+        }
+
     }
+
+
+
 }
+
