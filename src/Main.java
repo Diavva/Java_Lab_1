@@ -5,5 +5,9 @@ public class Main {
 //        Użyć każdej z opcji
 
 
+
+        System.out.println("Witam" + "Świecie");
+        System.out.print("To jest test");
+        System.out.printf(" Jeden %s trzy %d pięć.\n","dwa", 4);
     }
 }
