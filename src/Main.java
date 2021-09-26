@@ -38,7 +38,7 @@ public class Main {
 
         System.out.print(" Iloraz: " + (liczba / liczb2));
 
-        System.out.print(" Moduło: ");
+        System.out.print(" Moduło: " + (liczba % liczb2));
 
 
 
@@ -61,7 +61,7 @@ public class Main {
 
         System.out.print(" Iloraz: " + (liczb3 / liczb4));
 
-        System.out.print(" Moduło: ");
+        System.out.print(" Moduło: "+ (liczb3 % liczb4) );
     }
 
 }
