@@ -18,17 +18,17 @@ public class Main {
         *  */
 
 
-        /* przykład a
+        /* przykład b
          */
 
         Scanner scan = new Scanner(System.in);
 
 
         System.out.print("Podaj liczbę: ");
-        int liczba = scan.nextInt();
+        double liczba = scan.nextInt();
 
         System.out.print("Podaj drugą liczbę: ");
-        int liczb2 = scan.nextInt();
+        double liczb2 = scan.nextInt();
 
         System.out.print("Suma: " + (liczba + liczb2) );
 
@@ -38,6 +38,9 @@ public class Main {
 
         System.out.print(" Iloraz: " + (liczba / liczb2));
 
-        System.out.print(" Modulo 7");
+        System.out.print(" Moduło: ");
+
+
     }
+
 }
