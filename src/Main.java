@@ -18,7 +18,38 @@ public class Main {
         *  */
 
 
-        /* przykład b
+        /*  Zad 1
+          */
+
+        byte newbyte = 53;
+        System.out.print("To przykład typu  danych byte: " + newbyte + ", przedstawia on liczbę w zakresie od -128 do 127.");
+
+        short nshort = 5673;
+        System.out.print("To przykład typu danych short: " + nshort + ", przedstawia on liczbę w zakresie od -32 768 do 32 767.");
+
+        int ni = 336622;
+        System.out.print("To przykład typu danych int: " + ni + ", przedstawia on liczbę w zakresie od -2 147 483 648 do 2 147 483 647");
+
+        long nlon = 90000000001L;
+        System.out.print("To przykład typu danych long:" + nlon + ", przedstawia on liczbę w zakresie od -9 223 372 036 854 775 808 do 9 223 372 036 854 775 807");
+
+        float nflow = 33.254f;
+        System.out.print("To przykład typu danych float: " + nflow + ", przedstawia ona liczbę ułamkową jako 6-7 cyfr dziesiętnych");
+
+        double ndub = 44.6;
+        System.out.print("To przykład typu danych " + ndub + ", przedstawia ona liczbę ułamkową do 15 cyfr dziesiętnych");
+
+        boolean tof = false;
+        System.out.print("Typ danych boolean, lub po prostu bool przechowuje wartości true (prawda) lub false (fałsz). W tym przypadku przechowuje on wartość: " + tof);
+
+        char newcar = 'r';
+        System.out.print("Typ danych char jest przypisany do pojedyńczych znaków, liter lub wartości kodu ASCII. W tym przypadku jest ona przypisana do " + newcar);
+
+        String newstring = "Hello! This is a string!";
+        System.out.print("Typ danych String przechowuje cale zdania (Stringiem może być też jedno słowo, ale w większości przypadków jest to całe zdanie.) Na przykład: " + newstring);
+
+
+        /* Zadanie 2 przykład a
          */
 
         Scanner scan = new Scanner(System.in);
