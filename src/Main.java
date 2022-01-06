@@ -24,5 +24,17 @@ public class Main {
 
 
 
+        boolean a = true;
+        boolean b = true;
+        boolean c = false;
+
+        System.out.print("Operatory arytmetyczne:" + "\na = true\tb = true\tc = false");
+        System.out.println("!a: " + !a);
+        System.out.println("!c: " + !c);
+        System.out.println("(a || b ) = " + (a || b));
+        System.out.println("(a || c ) = " + (a || c));
+        System.out.println("!(a && c) = " + !(a && c));
+        System.out.println("!((a && b) || (!a || c) = " + !((a && b) || (!a || c) ));
+
     }
 }
